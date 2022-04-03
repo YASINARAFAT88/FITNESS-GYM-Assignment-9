@@ -1,0 +1,50 @@
+.home-container{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
+.home-container h1{
+    color: rgb(255, 89, 0);
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.home-container button{
+    width: 120px;
+    height: 40px;
+    background-color:rgb(255, 89, 0); 
+    color: wheat;
+    font-weight: 800;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.home-container button:hover{
+    background-color: orangered;
+    color: white;
+}
+.main-img img{
+    width: 400px;
+}
+
+/* review title */
+.review-title{  
+    color: rgb(255, 89, 0);
+    font-weight: 900;
+    text-align: center;
+}
+
+/* Customar Review Carts */
+.for-flex{
+    display: flex;
+    align-items: center;
+}
+.review-carts{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color:rgb(255, 89, 0);
+    border-radius: 10px;
+    
+}
