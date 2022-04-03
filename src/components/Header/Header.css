@@ -1,0 +1,17 @@
+.link-style{
+    height: 40px;
+    text-align: center;
+    background-color: rgb(255, 89, 0);
+
+}
+.link{
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+    font-size: 22px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.link:hover{
+    color: black;
+}
