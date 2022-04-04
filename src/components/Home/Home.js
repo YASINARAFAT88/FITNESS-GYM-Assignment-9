@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './Home.css'
 import logo from './gym-benner.jpg'
+import { useNavigate } from 'react-router-dom';
+
 
 
 const Home = () => {
-    const [reviews, setReviews] = useState([])
+    const naviGate = useNavigate()
+    const [reviews, setReviews] = useState([]);
+    
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -28,10 +32,9 @@ const Home = () => {
             {/* Review Section  */}
             <div>
                 <h1 className='review-title'>Customar Review</h1>
+                <section className='for-flex'>
                 {
-                    reviews.slice(0, 3).map(review => {
-                        return (
-                            <section key={review.id}  className="for-flex">
+                    reviews.slice(0, 3).map(review => 
                                 <div className='review-carts'>
                                     <div>
                                         <h3>Name: {review.name}</h3>
@@ -39,16 +42,16 @@ const Home = () => {
                                         <p>Rating: <small>{review.rating}</small></p>
                                     </div>
                                 </div>
-                            </section>
-                        )
-                    }
-
-                    )
+                    )                      
                 }
-
+                </section>
+                <div className='btn-div'>
+                    <button onClick={()=> naviGate('/reviews')} className='review-btn'>See All Review</button>
+                </div>
             </div>
         </>
     );
 };
 
 export default Home;
+

@@ -48,3 +48,19 @@
     border-radius: 10px;
     
 }
+.btn-div{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.review-btn{
+    width: 200px;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+}
+.for-flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
