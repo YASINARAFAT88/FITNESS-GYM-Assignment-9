@@ -1,0 +1,19 @@
+.not-found-img{
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+.not-found-img img{
+    width: 400px;
+}
+.instruction{
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 800;
+}
