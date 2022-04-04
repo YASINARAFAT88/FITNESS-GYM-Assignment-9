@@ -1,33 +1,27 @@
-# Getting Started with Create React App
+# FITNESS GYM DHAKA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Site Link :
 
-## Available Scripts
+https://flourishing-medovik-77b3e7.netlify.app/
 
-In the project directory, you can run:
+###
 
-### `npm start`
+### `Available Feature`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5 pages website home, reviews, Dashboard, Blogs, Notfouns, About!!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Main Home Page`
 
-### `npm test`
+this site have a Home Page, Three part home page Like Home Review and Navigation.. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Review Page`
 
-### `npm run build`
+Review page All Customars reviews show
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dashboard
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Monthly Benefits and invesment show this dashboard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
