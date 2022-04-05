@@ -4,8 +4,6 @@
 
 https://flourishing-medovik-77b3e7.netlify.app/
 
-###
-
 ### `Available Feature`
 
 5 pages website home, reviews, Dashboard, Blogs, Notfouns, About!!
@@ -18,11 +16,7 @@ this site have a Home Page, Three part home page Like Home Review and Navigation
 
 Review page All Customars reviews show
 
-<<<<<<< HEAD
-### Dashboard
 
-Monthly Benefits and invesment show this dashboard
-=======
 ### Dashboard
 
 Monthly Benefits and invesment show this dashboard
