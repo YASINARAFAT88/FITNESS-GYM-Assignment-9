@@ -4,6 +4,9 @@
     margin: 50px;
     padding: 20px;
 }
+.detail-text{
+    width: 500px;
+}
 .home-container h1{
     color: rgb(255, 89, 0);
     font-size: 50px;
